@@ -21,6 +21,23 @@
   font-weight: 300;
 }
 
+table{
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+td {
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+.ml{
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
